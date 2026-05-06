@@ -4,59 +4,62 @@ This file governs Codex work inside `civic-ai-safety-notes`.
 
 ## Repository Role
 
-`civic-ai-safety-notes` is the public safety documentation scaffold for future Foundation civic AI artifacts. It is not a model repository, dataset repository, demo repository, private evaluation workspace, incident room, or sealed development workspace.
+`civic-ai-safety-notes` is a public-safe safety documentation repository for civic AI release claims, model cards, dataset cards, Spaces, demos, public reports, and portfolio links.
+
+It is not a model repository, dataset repository, live demo repository, private governance repository, incident repository, or proof of deployment.
 
 ## Authority
 
-- The 218 Network Foundation owns this safety documentation surface.
-- Human Foundation safety and governance authority remains upstream of publication.
-- Codex may draft templates, review gates, limitation taxonomies, graphs, and validation checks.
-- Codex is not safety, governance, legal, release, or publication authority.
+- The 218 Network Foundation owns Foundation-aligned public safety standards.
+- Human Foundation governance, privacy, data, safety, and publication authority remains upstream.
+- Codex may draft public-safe documentation, diagrams, templates, synthetic examples, and validation checks.
+- Codex is not release authority, governance authority, safety authority, data authority, legal authority, or monetization authority.
 
 ## Entity Boundary Rules
 
-- The Foundation is independent from YOSO-YAi LLC.
-- The Foundation is not a YOSO-YAi marketing arm, CSR project, or product line.
-- YOSOR is a product of YOSO-YAi LLC, not a Foundation product.
-- YOSO-YAi LLC and YOSOR references must be boundary context only.
+- YOSO-YAi LLC and the 218 Network Foundation are distinct.
+- The Foundation is not a company marketing arm, CSR project, or product line.
+- YOSOR is a product of YOSO-YAi LLC, not a separate legal entity.
+- Do not use Foundation language to sell company products.
+- Do not use company product language to define Foundation legitimacy.
 
 ## Public Boundary
 
 Allowed:
 
-- public safety note templates;
-- limitation taxonomy;
-- review gate documentation;
-- public reliance boundaries;
-- public artifact safety standards;
-- public Mermaid safety maps.
+- safety standards;
+- boundary checklists;
+- status and limitation wording;
+- synthetic examples;
+- public-safe Mermaid diagrams;
+- links to public repositories with explicit status.
 
 Forbidden:
 
-- sealed model methods;
-- private evaluations;
-- sensitive abuse details with operational value;
-- donor private data;
+- donor data;
 - student data;
 - school private data;
-- volunteer private data;
+- volunteer data;
 - private Foundation operations;
 - customer data;
-- unreleased model weights;
 - private training corpora;
-- secrets, tokens, and API keys;
+- model weights;
+- dataset files;
+- private evaluations;
 - private telemetry;
 - production prompts;
+- sealed YOSO-YAi LLC IP;
+- secrets, tokens, and API keys;
+- exact sensitive infrastructure locations;
 - security-sensitive NEURONA operational details.
 
 ## Writing Rules
 
-- Write in a precise public-safety and civic technology voice.
-- Use concrete review gates and limitation categories.
-- Mark future artifacts as planned unless public release evidence exists.
-- Do not invent models, datasets, Spaces, evaluations, benchmarks, safety reviews, incidents, endorsements, or releases.
-- Do not include sensitive abuse instructions or details that improve misuse.
-- Update graphs when safety workflow, reliance boundaries, artifact status, or public/private boundary behavior changes.
+- Write in precise infrastructure-tech language.
+- Mark status as planned, scaffolded, released, paused, deprecated, or private/not-public.
+- Do not claim any model, dataset, Space, school, NEURONA deployment, report, service, audit, or outcome exists unless the public artifact and review status exist.
+- Keep examples synthetic and labeled.
+- Update affected graphs when review flows, boundaries, or artifact classes change.
 
 ## Validation
 

@@ -2,27 +2,26 @@
 
 ## Purpose
 
-Public contributions should improve safety-note clarity, limitation categories, review gates, public reliance boundaries, and artifact safety standards.
+Public contributions should improve safety wording, boundary clarity, review checklists, risk-register structure, graph readability, and validation coverage.
 
 ## Contribution Rules
 
 | Area | Rule |
 | --- | --- |
-| Sensitive data | Do not submit donor private data, student data, school private data, volunteer private data, customer data, secrets, logs, private telemetry, private evaluations, or sealed IP. |
-| Abuse detail | Do not include operational misuse details, exploit steps, or content that improves harmful use. |
-| Artifact claims | Do not claim a model, dataset, or Space is released unless public cards, release notes, safety notes, companion links, and governance review status exist. |
-| Evaluations | Do not publish private evaluations, raw test sets, red-team notes, or unreleased benchmarks. |
-| Entity voice | Use Foundation safety voice. Do not write safety notes as company marketing or YOSOR product documentation. |
-| Graphs | Update Mermaid maps when safety workflow, reliance boundary, or artifact-status behavior changes. |
+| Examples | Use synthetic or placeholder material only. |
+| Sensitive data | Do not submit donor, student, school, volunteer, customer, partner, telemetry, incident, legal, private operations, or secret material. |
+| Claims | Do not add fake release, evaluation, deployment, model, dataset, Space, report, service, grant, or impact claims. |
+| Status | Label planned, scaffolded, released, paused, deprecated, and private/not-public states explicitly. |
+| Entity voice | Preserve Foundation independence from YOSO-YAi LLC and YOSOR. |
+| Graphs | Update Mermaid maps when safety review or boundary behavior changes. |
 
 ## Pull Request Checklist
 
 - [ ] The change is public-safe.
-- [ ] Foundation independence remains clear.
-- [ ] Private, sealed, donor, student, school, volunteer, customer, evaluation, telemetry, prompt, and secret material is excluded.
-- [ ] Misuse discussion does not include operationally harmful detail.
-- [ ] Artifact statuses are accurate.
-- [ ] Affected graphs and quality gates are updated.
+- [ ] Examples are synthetic or placeholder-based.
+- [ ] Forbidden data and sealed IP are absent.
+- [ ] No unreleased model, dataset, Space, report, service, school, NEURONA, or deployment claim is introduced.
+- [ ] Affected docs, graphs, templates, and validation checks are updated.
 - [ ] `scripts/validate-safety-notes.sh` passes.
 
 ## Security And Privacy
